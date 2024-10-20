@@ -1,4 +1,4 @@
 # leci-repository
 
 > [!TIP]
-> If it works, don't touch it!
+> __If it works, don't touch it!__
