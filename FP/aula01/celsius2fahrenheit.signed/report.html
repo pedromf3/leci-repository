@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<meta name="Submission" content="D0KDY3WEOTXUO00KFLL3HKU5V"/>
+<meta name="Time" content="2024-09-25T08:45:40Z"/>
+<meta name="ID" content="celsius2fahrenheit"/>
+<meta name="User" content="higy-icab-lita-ykud"/>
+<meta name="Problem" content="ext/19092609527ewwt28htujsacpmu6xr0fkue"/>
+<meta name="Elapsed" content="874 ms"/>
+<style type="text/css">
+.header {font-weight: bold; font-size: 1.2em; }
+.item {font-weight: bold;}
+.pass {color: green;}
+.fail {color: red;}
+.note {color: blue; font-weight: bold;}
+table.file td {padding-right: 1em; background: #FFF; }
+.linenumber {color: gray;}
+.footnote {font-size: 0.7em;}
+table {font-size: 0.9em;}
+td, th { background: #EEE; margin: 0.5em; padding: 0.25em;}
+table.output td {vertical-align: top;}
+div.footnotes { border-top: 1px solid gray; padding-top: 0.5em; }
+</style>
+<title>Report</title>
+</head>
+<body>
+<p class="header run">Running celsius2fahrenheit.py</p>
+<div class="run">
+<p class="item">Test 1</p>
+<pre class="output">Temperature (ºC)? <b>10</b>
+10.0 ºC = 50.0 ºF
+</pre>
+<span class="pass">pass </span><p class="item">Test 2</p>
+<pre class="output">Temperature (ºC)? <b>0</b>
+0.0 ºC = 32.0 ºF
+</pre>
+<span class="pass">pass </span><p class="item">Test 3</p>
+<pre class="output">Temperature (ºC)? <b>36.7</b>
+36.7 ºC = 98.06 ºF
+</pre>
+<span class="pass">pass </span><p class="item">Test 4</p>
+<pre class="output">Temperature (ºC)? <b>-40.0</b>
+-40.0 ºC = -40.0 ºF
+</pre>
+<span class="pass">pass </span></div>
+<p class="header studentFiles">Submitted files</p>
+<div class="studentFiles">
+<p class="caption">celsius2fahrenheit.py:</p>
+<pre class="output"># Write a program that reads a temperature in degrees Celsius,
+# converts it to Fahrenheit, and shows the result like this:
+#     XX ºC = YY ºF
+# where XX and YY are the temperatures in Celsius and Fahrenheit, respectively.
+#
+# The conversion formula is:  TF = 1.8 TC + 32, where TC and TF are
+# the temperatures in Celsius and in Fahrenheit, respectively.
+
+TC = float(input("Temperature (ºC)? ")) 
+TF = 1.8*TC + 32
+print(TC ,"ºC =", TF ,"ºF")
+
+
+</pre>
+</div>
+<p class="header score">Score</p>
+<div class="score">
+<p class="score">4/4</p>
+</div>
+<div class="footnotes"><div class="footnote">2024-09-25T08:45:40Z</div>
+</div>
+</body></html>

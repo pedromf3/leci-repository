@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Created-By: 11.0.17 (Eclipse Adoptium)
+
+Name: report.html
+SHA-256-Digest: 6QGMImtBsRlnfjJfJRXeW0I+JYm7f5122iRUwDtdC6Q=
+
+Name: avgVelocity.py
+SHA-256-Digest: /yEJIngsag8dovTp+eIyx99s1nFVLlsTRG/k3eh7YNw=
+

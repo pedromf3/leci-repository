@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Created-By: 11.0.17 (Eclipse Adoptium)
+
+Name: report.html
+SHA-256-Digest: 9whQ+UU0bUxRWJZuuIr1LniUH2klBRAoATwBF5kZw20=
+
+Name: celsius2fahrenheit.py
+SHA-256-Digest: tuHtrQwhgDJELrBH+Xk3ohzWvbUCixkzwiSJXmGba1U=
+
